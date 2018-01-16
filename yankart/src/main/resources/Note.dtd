@@ -1,0 +1,36 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT configuration (appender,logger,root)>
+<!ATTLIST configuration
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT appender (encoder)>
+<!ATTLIST appender
+  xmlns CDATA #FIXED ''
+  class CDATA #REQUIRED
+  name NMTOKEN #REQUIRED>
+
+<!ELEMENT logger (appender-ref)>
+<!ATTLIST logger
+  xmlns CDATA #FIXED ''
+  additivity NMTOKEN #REQUIRED
+  level NMTOKEN #REQUIRED
+  name NMTOKEN #REQUIRED>
+
+<!ELEMENT root (appender-ref)>
+<!ATTLIST root
+  xmlns CDATA #FIXED ''
+  level NMTOKEN #REQUIRED>
+
+<!ELEMENT encoder (Pattern)>
+<!ATTLIST encoder
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Pattern (#PCDATA)>
+<!ATTLIST Pattern
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT appender-ref EMPTY>
+<!ATTLIST appender-ref
+  xmlns CDATA #FIXED ''
+  ref NMTOKEN #REQUIRED>
