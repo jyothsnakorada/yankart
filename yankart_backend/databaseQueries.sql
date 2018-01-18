@@ -26,14 +26,10 @@ CREATE TABLE user_detail (
 
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('Karthikeyan', 'V', 'ADMIN', true, '$2y$10$Dv3b1VlDpQ3OnjtLCwwBiOHId4ECegiWDz.Jq8rkksysc9.DpbZ2K', 'kv@gmail.com', '9888888882');
+VALUES ('jyothsna korada', 'V', 'ADMIN', true, '$2a$10$at3ypJFUiTxwOtY0UaMK6eRU/oF7eUmK3ZdXLsfmoa/73Ts7oPOau', 'jyothsna.9999@gmail.com', '9999999999');
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('Yan', 'Karto', 'SUPPLIER', true, '$2y$10$8Yvv5rlH0NvZGwKZyOm1Vu2DGemktNALcx94C0/m3.CbPYxIArvJ6', 'yan@gmail.com', '1239999899');
-INSERT INTO user_detail 
-(first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('Naruto', 'Uzumaki', 'SUPPLIER', true, '$2y$10$x2bEyO60xLBRXhJtrB3Qg.pR9MXrYMbKq9yEAqWmmhKRdnBvHC/L.', 'nu@gmail.com', '6279875757');
-
+VALUES ('virat', 'Kohli', 'SUPPLIER', true, '$2y$10$8Yvv5rlH0NvZGwKZyOm1Vu2DGemktNALcx94C0/m3.CbPYxIArvJ6', 'viratkohli@gmail.com', '6666666666');
 
 CREATE TABLE product (
 	id IDENTITY,
@@ -54,16 +50,11 @@ CREATE TABLE product (
 
 
 INSERT INTO product (code, name, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('YANABC123DEFY', 'Hybrid Tea Rose Plant','We are a top notch supplier of Hybrid Tea Rose Plant.', 200, 5, true, 1, 2, 0, 0 );
+VALUES ('YAN8B2CE172DB', 'bonsai','bonsai is a medicinal plant.', 1000, 2, true, 2, 1, 0, 0 );
 
 INSERT INTO product (code, name, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('YANABC456DEFY', 'Anthurium Flower Plant','Driven by a vision to achieve significant growth in this industry, we are providing a premium quality array of Anthurium Flower Plant.', 150, 5, true, 2, 3, 0, 0 );
+VALUES ('YAN640946F1E5', 'mango',' mango fruit.', 750, 3, true, 1, 2, 0, 0 );
 
 INSERT INTO product (code, name, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('YANABC789DEFY', 'tinny oriantal plant','We are successfully meeting the varied requirements of our clients by providing the best quality range of Decorative Ornamental Plant.', 600, 5, true, 3, 2, 0, 0 );
+VALUES ('YANE9CE2D48F', 'roses',' rose plants.', 500, 4, true, 3, 3, 0, 0 );
 
-INSERT INTO product (code, name, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('YANABC101112DEFY', 'Lantana Camara Depressa plant','We are leading and eminent industry which is offering a broad range of Lantana Camara Depressa. ', 300, 5, true, 2, 3, 0, 0 );
-
-INSERT INTO product (code, name, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('YANABC131415DEFY', 'Ficus Panda Plant','We are remarkable entity, engaged in offering superior quality of Ficus Panda Plant.', 1500, 5, true, 3, 2, 0, 0 );

@@ -27,9 +27,9 @@
 	    				<h2 class="title text-center">Contact Info</h2>
 	    				<address>
 	    					<p>YAN KART </p>
-							<p>985,uzumaki st,tokyo</p>
-							<p>japan</p>
-							<p>Mobile: +2346 17 38 93</p>
+							<p>145,deepak villa,juhu</p>
+							<p>mumbai</p>
+							<p>Mobile: 8919329677</p>
 							<p>Fax: 1-714-252-0026</p>
 							<p>Email: info@yan_kart.com</p>
 	    				</address>
